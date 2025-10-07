@@ -17,3 +17,10 @@ password:
 ### 7. php artisan db:seed
 ### 8. php artisan serve
 ### 9. go to http://localhost:8000
+### 10. To test email sending and job/queue
+I have used mailtrap tesing environment. 
+Update the env with smtp config.
+
+RUN: ```php artisan queue:work```
+
+mail will be working up sending request on ```tasks/{id} (manager/assigned user only)``` this api  
