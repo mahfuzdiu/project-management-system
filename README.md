@@ -15,4 +15,5 @@ password:
 ### 5. php artisan key:generate
 ### 6. php artisan migrate
 ### 7. php artisan db:seed
-### 8. go to http://localhost:8000
+### 8. php artisan serve
+### 9. go to http://localhost:8000
