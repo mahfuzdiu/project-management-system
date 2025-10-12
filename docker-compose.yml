@@ -1,6 +1,6 @@
 services:
   app:
-    build: .
+    build: ..
     container_name: laravel-app
     working_dir: /var/www/html
     volumes:
